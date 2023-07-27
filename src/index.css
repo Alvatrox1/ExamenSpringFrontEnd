@@ -1,0 +1,212 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.editButton {
+  background-color: lightblue;
+}
+
+.editButton:hover {
+  background-color: #646cff;
+}
+
+.deleteButton {
+  background-color: lightcoral;
+}
+
+.deleteButton:hover {
+  background-color: red;
+}
+
+hr {
+  color: white;
+  margin-top: 40px;
+}
+
+#divTitulo {
+  display: flex;
+  justify-content: space-around;
+}
+
+#divTitulo button {
+  margin-left: -38%;
+}
+
+#divTitulo h1 {
+  margin-left: -58%;
+}
+
+#divTitulo span {
+  margin-left: 8px;
+}
+
+/* NAV */
+
+nav {
+  height: 100px;
+  background-color: #535bf2;
+  min-height: 75px;
+}
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav #logo {
+  margin-top: -30px;
+  margin-left: -150px;
+}
+
+#menu {
+  align-content: left;
+  margin-left: 35%;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+}
+
+nav li {
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+nav li a {
+  display: flex;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+nav li a:hover {
+  display: block;
+  padding: 1rem;
+  text-decoration: underline;
+  color: #FFF;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  height: 320px;
+  background-color: #535bf2;
+  color: white;
+  margin-top: 25px;
+  padding-top: 25px;
+  bottom: 0;
+  scroll-behavior: auto;
+}
+
+#zonaBusqueda {
+  margin-left: 55px;
+}
+
+#zonaOnline {
+  margin-left: 75px;
+}
+
+#zonaComunidad {
+  margin-left: 90px;
+}
+
+#zonaNoticias {
+  margin-left: 42px;
+}
+
+
+footer li {
+  list-style: none;
+  text-align: left;
+}
+
+footer li span {
+  margin-top: 8px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.tableStyle {
+  width: 95%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2.5%;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
